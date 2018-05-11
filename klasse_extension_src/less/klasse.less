@@ -1,0 +1,44 @@
+html,body { 
+	height: 100%; margin: 0px; padding: 0px;
+	overflow: hidden;
+}
+.pagewrapper {
+	background-color: #EEEEEE;
+	height: 100%;
+	display: grid;
+	grid-template-columns: [begin] auto [mid] 600px auto [end];
+	grid-template-rows: [begin] auto [mid] 600px [meta] 50px auto [end];
+}
+
+.poster {
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+  grid-column: mid / span 1;
+  grid-row: mid / span 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+.meta {
+	position: relative;
+	grid-column: mid / span 1;
+	grid-row: meta / span 1;
+}
+.refresh {
+	width: 30px;
+	height: 30px;
+	margin-top: 20px;
+	display: block;
+	img {
+		width:100%;
+		height: 100%;
+		display: none;
+	}
+	float: left;
+}
+.lktip {
+	margin-top: 20px;
+	float: right;
+}

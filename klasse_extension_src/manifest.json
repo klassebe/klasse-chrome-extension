@@ -1,0 +1,17 @@
+{
+   "author": "Toon Van de Putte",
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "description": "Klasse chrome extension, een onderwijs-Loesje in elke nieuwe tab",
+   "incognito": "split",
+   "manifest_version": 2,
+   "name": "Klasse",
+   "version": "0.0.1",
+   "icons": { 
+   		"16": "icon16.png",
+   		"48": "icon48.png",
+    	"128": "icon128.png" 
+    },
+    "permissions" : ["geolocation"]
+}
