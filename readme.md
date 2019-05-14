@@ -20,3 +20,5 @@ Door `gulp` te doen in de `klasse_extension_src` directory wordt LESS gecompilee
 * De extension zal nu in de lijst van geïnstalleerde extensions verschijnen.
 
 ![Chrome screenshot](chrome.png)
+
+Update voor Monday
